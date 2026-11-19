@@ -1,0 +1,35 @@
+{
+  "tool": "cangjie-tools v2.5.0",
+  "published_hashes": {
+    "SKILL.md": "48be148b562031dd228f8c56e717a04bf2d85bc7db6e4cd3ea377fe1d48351e1",
+    "references/capabilities/context.md": "1ba17c20d1ebad88ed200a67d548ff69e204eb2aeae460ee42b54d79801b21b7",
+    "references/capabilities/execution.md": "9093ea3d7474ca0331bfc3c697976c1e0ee349a8edf2c1aebe1935636d3c87c1",
+    "references/capabilities/journal.md": "0287be82cea85754c4059c905a97a5e7a842c96f6e049a4aa0fa45239ef24c4f",
+    "references/capabilities/risk.md": "06b79a4f28afef174871e92ed241e0c55dadcc1843e2e6015502f6cff559ecc0",
+    "references/capabilities/setup.md": "ffc58769a6542a6f1800ad03da3fbe957201c9ddb4187af25c993f4a694dce9f",
+    "references/capability-index.md": "be9752d5d26dad33acdd232f642bd60441a6a1701ddb7e75736ed6acd773452f",
+    "references/cheatsheet.md": "f9ffbca8da0d24eb7d5c040f698559077741cd5a6be4912ca5a32fffe5d02475",
+    "references/glossary.md": "1a9c21e2ab6e59d13612420b561ea6aa5c70933c5b7fa7f7cc598da57f8bcfbf",
+    "references/overview.md": "12caff2c6ac8337f936d42fb3828447c03b4ff7782cb0f815f520d607b4cb2a6"
+  },
+  "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖",
+  "bundle_id": "bundle.unicorn",
+  "bundle_sha256": "3c2f30d44d260f578bfa374fe170aa5bddd3a12f697819f49365ae104dbd7712",
+  "variant": "single",
+  "run_id": "run-20261120-000105-1a94dd",
+  "decision": {
+    "schema_version": 1,
+    "requested": "single",
+    "selected": "single",
+    "decision_policy": "single-first-v1",
+    "skill_budget": 8,
+    "promoted_count": 0,
+    "capability_count": 5,
+    "reasons": [
+      "用户显式选择 single，auto 决策器不覆盖用户选择"
+    ],
+    "alternative": "compact pack（1 个来源路由入口 + 0 个晋级 Skill，共 1 个可发现入口）",
+    "user_confirmed": true,
+    "preserve_strategy_on_update": true
+  }
+}
